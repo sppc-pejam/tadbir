@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="UAppButtonLable" parent="Base.Widget.AppCompat.Button.Borderless.Colored">
+    <item name="android:layout_height">@dimen/button_height</item>
+    <item name="android:textSize">@dimen/button_textSize</item>
+    <item name="android:paddingLeft">@dimen/_16sdp</item>
+    <item name="android:paddingRight">@dimen/_16sdp</item>
+  </style>
+
+  <style name="UAppButtonLable.Success" parent="UAppButtonLable">
+    <item name="android:textColor">@color/bts_success_color_dark</item>
+  </style>
+
+  <style name="UAppButtonLable.Warning" parent="UAppButtonLable">
+    <item name="android:textColor">@color/bts_warning_color_dark</item>
+  </style>
+
+  <style name="UAppButtonLable.Info" parent="UAppButtonLable">
+    <item name="android:textColor">@color/bts_info_color_dark</item>
+  </style>
+
+  <style name="UAppButtonLable.Error" parent="UAppButtonLable">
+    <item name="android:textColor">@color/bts_danger_color_dark</item>
+  </style>
+
+  <style name="UAppButton" parent="Base.Widget.AppCompat.Button">
+    <!--<item name="android:layout_width">@dimen/button_width</item>-->
+    <item name="android:layout_height">@dimen/button_height</item>
+    <item name="android:textSize">@dimen/button_textSize</item>
+    <item name="android:textColor">@color/light_text</item>
+    <item name="android:paddingLeft">@dimen/button_paddingLeft</item>
+    <item name="android:paddingRight">@dimen/button_paddingRight</item>
+    <item name="android:background">@drawable/border_button</item>
+  </style>
+
+  <style name="UAppButton.Success" parent="UAppButton">
+    <item name="android:background">@drawable/selector_button_success</item>
+  </style>
+
+  <style name="UAppButton.Warning" parent="UAppButton">
+    <item name="android:background">@drawable/selector_button_warning</item>
+  </style>
+
+  <style name="UAppButton.Info" parent="UAppButton">
+    <item name="android:background">@drawable/selector_button_info</item>
+  </style>
+
+  <style name="UAppButton.Error" parent="UAppButton">
+    <item name="android:background">@drawable/selector_button_error</item>
+  </style>
+
+  <style name="UAppButton.Outline" parent="UAppButton">
+    <item name="android:textColor">@color/colorPrimaryDark</item>
+    <item name="android:background">@drawable/border_button_outline</item>
+  </style>
+
+  <style name="UAppButton.OutlineSuccess" parent="UAppButton">
+    <item name="android:textColor">@color/bts_success_color_dark</item>
+    <item name="android:background">@drawable/selector_button_outline_success</item>
+  </style>
+
+  <style name="UAppButton.OutlineWarning" parent="UAppButton">
+    <item name="android:textColor">@color/bts_warning_color_dark</item>
+    <item name="android:background">@drawable/selector_button_outline_warning</item>
+  </style>
+
+  <style name="UAppButton.OutlineInfo" parent="UAppButton">
+    <item name="android:textColor">@color/bts_info_color_dark</item>
+    <item name="android:background">@drawable/selector_button_outline_info</item>
+  </style>
+
+  <style name="UAppButton.OutlineError" parent="UAppButton">
+    <item name="android:textColor">@color/bts_danger_color_dark</item>
+    <item name="android:background">@drawable/selector_button_outline_error</item>
+  </style>
+</resources>

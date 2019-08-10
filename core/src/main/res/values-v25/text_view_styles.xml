@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="UTextAppearance.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+    <item name="android:textColor">@color/dark_text</item>
+    <item name="android:textSize">@dimen/text_view_headline_1</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="UTextAppearance.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+    <item name="android:textColor">@color/dark_text</item>
+    <item name="android:textSize">@dimen/text_view_headline_2</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="UTextAppearance.Title1" parent="TextAppearance.MaterialComponents.Subtitle1">
+    <item name="android:textColor">@color/surfaceDarkerTextColor</item>
+    <item name="android:textSize">@dimen/text_view_subtitle_1</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="UTextAppearance.Title2" parent="TextAppearance.MaterialComponents.Subtitle2">
+    <item name="android:textColor">@color/surfaceDarkTextColor</item>
+    <item name="android:textSize">@dimen/text_view_subtitle_2</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="UTextAppearance.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+    <item name="android:textColor">@color/surfaceDarkerTextColor</item>
+    <item name="android:textSize">@dimen/text_view_subtitle_1</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="UTextAppearance.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+    <item name="android:textColor">@color/surfaceDarkTextColor</item>
+    <item name="android:textSize">@dimen/text_view_subtitle_2</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="UTextAppearance.Body1" parent="TextAppearance.MaterialComponents.Body1">
+    <item name="android:textColor">@color/surfaceLightTextColor</item>
+    <item name="android:textSize">@dimen/text_view_body_1</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="UTextAppearance.Body2" parent="TextAppearance.MaterialComponents.Body2">
+    <item name="android:textColor">@color/surfaceLighterTextColor</item>
+    <item name="android:textSize">@dimen/text_view_body_2</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="UTextAppearance.Success" parent="TextAppearance.MaterialComponents.Body1">
+    <item name="android:textColor">@color/bts_success_color_dark</item>
+    <item name="android:textSize">@dimen/text_view_body_1</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="UTextAppearance.Info" parent="TextAppearance.MaterialComponents.Body1">
+    <item name="android:textColor">@color/bts_info_color_dark</item>
+    <item name="android:textSize">@dimen/text_view_body_1</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="UTextAppearance.Error" parent="TextAppearance.MaterialComponents.Body1">
+    <item name="android:textColor">@color/bts_danger_color_dark</item>
+    <item name="android:textSize">@dimen/text_view_body_1</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="UTextAppearance.Caption" parent="TextAppearance.MaterialComponents.Caption">
+    <item name="android:textColor">@color/surfaceDarkerTextColor</item>
+    <item name="android:textSize">@dimen/text_view_caption</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+</resources>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="err_msg_invalid_name_hostname">No address associated with hostname</string>
+  <string name="err_msg_ip_address">آی پی وارد شده صحیح نمی باشد</string>
+  <string name="err_msg_port">شماره پورت وارد شده صحیح نمی باشد</string>
+  <string name="err_msg_server_error">خطا در برقراری ارتباط با سرور</string>
+  <string name="err_msg_key">شناسه وارد شده صحیح نمی باشد</string>
+  <string name="err_msg_empty_fileds">لطفا فیلدهای خالی را پر کنید.</string>
+  <string name="err_msg_empty">موردی یافت نشد.</string>
+  <string name="err_msg_empty_list">لیست خالی است.</string>
+  <string name="err_msg_select_co">لطفا شرکت مورد نظر را انتخاب کنید.</string>
+  <string name="err_msg_invalid_login_fileds">نام کاربری یا رمز ورود اشتباه است.</string>
+  <string name="err_msg_invalid_merch_code">کد کالا وار شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_merch_name">نام کالا وارد شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_unit_name">واحد کالا وارد شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_amount">مقدار وارد شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_unitprice">مبلغ وارد شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_remainder">مقدار تخفیف وارد شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_serial">سریال وارد شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_customer">خریدار ارائه شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_customer_name">نام خریدار ارائه شده معتبر نمی باشد.</string>
+  <string name="err_msg_empty_customer">خریدار انتخاب نشده است.</string>
+  <string name="err_msg_invalid_customer_account">حساب خریدار معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_customer_code">کد خریدار ارائه شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_max_text_len">طول فیلد وارد شده معتبر نمی باشد.</string>
+  <string name="err_msg_no_connection">خطا در اتصال به اینترنت</string>
+  <string name="err_msg_no_network_config">خطا در تنظیمات پیکربندی شبکه</string>
+  <string name="msg_waiting">لطفا منتظر بمانید…</string>
+  <string name="msg_add_article">سطر افزوده شد</string>
+  <string name="msg_edit_article">سطر اصلاح شد</string>
+  <string name="msg_approved">تایید شد</string>
+  <string name="msg_edited">اصلاح شد</string>
+  <string name="msg_deleted">حذف شد</string>
+  <string name="err_empty_inventory">موجودی کالا کافی نیست</string>
+  <string name="msg_sync_table">در حال بروز رسانی اطلاعات</string>
+  <string name="msg_sync_merchandise">همگام سازی اطلاعات کالاها</string>
+  <string name="msg_sync_unit">همگام سازی اطلاعات واحدهای کالا</string>
+  <string name="msg_sync_account">همگام سازی اطلاعات حساب ها</string>
+  <string name="msg_sync_detail_acc">همگام سازی اطلاعات تفصیلی های شناور</string>
+  <string name="msg_sync_cost_center">همگام سازی اطلاعات مرکز هزینه ها</string>
+  <string name="msg_sync_project">همگام سازی اطلاعات پروژه ها</string>
+  <string name="msg_sync_customer">همگام سازی اطلاعات خریداران و فروشندگان</string>
+  <string name="msg_sync_sales_price">همگام سازی اطلاعات قیمت فروش کالاها</string>
+  <string name="err_msg_invalid_date">تاریخ ارائه شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_date_on_fp">تاریخ ارائه شده خارج از محدوده دوره مالی می باشد.</string>
+  <string name="err_msg_invalid_current_date_on_fp">تاریخ جاری سیستم خارج از محدوده دوره مالی می باشد.</string>
+  <string name="err_invalid_key">شناسه وارد شده معتبر نمی باشد</string>
+  <string name="err_invalid_user_name">نام کاربری وارد شده معتبر نمی باشد</string>
+  <string name="err_invalid_password">کلمه عبور وارد شده معتبر نمی باشد</string>
+  <string name="err_msg_subsystem_access">کاربر جاری دسترسی به سیستم اندروید ندارد</string>
+  <string name="err_msg_version_access">نسخه برنامه جاری با وب سرویس همخوانی ندارد</string>
+  <string name="msg_error">خطا</string>
+  <string name="msg_warning">اخطار</string>
+  <string name="msg_ask">درخواست از کاربر</string>
+  <string name="msg_accept">تایید</string>
+  <string name="err_msg_invalid_req_date">تاریخ نیاز ارائه شده معتبر نمی باشد.</string>
+  <string name="err_msg_invalid_code_from_name">فیلدهای کد و نام هم خوانی ندارند.</string>
+  <string name="err_msg_not_save_so">عملیات برروی آرتیکل های سفارش فروش پیش از ذخیره سفارش فروش امکان پذیر نمی باشد.</string>
+  <string name="succ_msg_operation_done">عملیات با موفقیت انجام شد</string>
+  <string name="err_msg_operation_invalid">عملیات با موفقیت انجام نشد</string>
+  <string name="succ_msg_sync_table_operation">همگام سازی جداول با موفقیت انجام شد</string>
+  <string name="err_msg_sync_table_operation">همگام سازی جداول با موفقیت انجام نشد</string>
+  <string name="succ_msg_sync_operation">همگام سازی با موفقیت انجام شد</string>
+  <string name="err_msg_sync_operation">همگام سازی با موفقیت انجام نشد</string>
+  <string name="wrn_msg_necessary_sync">همگام سازی اولیه صورت نگرفته است</string>
+  <string name="err_sync_pre_so">بازیابی سفارشات قبلی ارسال شده با موفقیت انجام نشد</string>
+  <string name="err_sync_pre_so_info">خطا در اطلاعات بازیابی شده از سفارشات قبلی</string>
+  <string name="err_sync_pre_data">بازیابی سفارشات و پیش فاکتور های قبلی ارسال شده با خطا مواجه شد</string>
+  <string name="err_sync_pre_data_info">خطا در اطلاعات بازیابی شده از سفارشات و پیش فاکتور های قبلی</string>
+  <string name="err_memory_full">فضای کافی برای دخیره اطلاعات موجود نیست</string>
+  <string name="err_msg_row_limited">تعداد سطرها نمی تواند بیشتر از 50 سطر باشد</string>
+  <string name="wrn_msg_no_item_need_sync">موردی برای همگام سازی یافت نشد</string>
+  <string name="err_msg_repeated_merch_sp">این کالا قبلا در این فاکتور وارد شده است.</string>
+  <string name="err_msg_repeated_merch_so">این کالا قبلا در این سفارش وارد شده است.</string>
+
+  <string name="succ_sync_so">همگام سازی سفارشات قبلی با موفقیت انجام شد</string>
+  <string name="err_sync_so_null">خطا در دریافت اطلاعات سفارشات قبلی</string>
+  <string name="err_sync_so_info">خطا در اطلاعات بازیابی شده از سفارشات قبلی \nاحتمالا سفارشی بدون سطر ثبت گردیده است </string>
+  <string name="err_sync_so_empty">سفارشی جهت بازیابی وجود ندارد</string>
+  <string name="succ_sync_prefactor">همگام سازی پیش فاکتور های قبلی با موفقیت انجام شد</string>
+  <string name="err_sync_prefactor_null">خطا در دریافت اطلاعات پیش فاکتور های قبلی</string>
+  <string name="err_sync_prefactor_info">خطا در اطلاعات بازیابی شده از پیش فاکتور های قبلی \nاحتمالا پیش فاکتوری بدون سطر ثبت گردیده است</string>
+  <string name="err_sync_prefactor_empty">پیش فاکتوری جهت بازیابی وجود ندارد</string>
+  <string name="msg_cannot_sync_so">این امکان زمانی فراهم است که سفارشی در اپلیکیشن ذخیره نشده باشد. برای استفاده از این امکان از شرکت خارج شده و دوباره ورود کنید.</string>
+  <string name="msg_cannot_sync_prefactor">این امکان زمانی فراهم است که پیش فاکتوری در اپلیکیشن ذخیره نشده باشد. برای استفاده از این امکان از شرکت خارج شده و دوباره ورود کنید.</string>
+
+  <string name="err_msg_empty_so_no">سفارش فروش موجود نیست</string>
+  <string name="err_msg_sync_needs">همگام سازی اطلاعات صورت نگرفته است</string>
+  <string name="msg_sync_data_dialog_msg">آیا مایل به همگام سازی جداول انتخاب شده می باشید؟</string>
+  <string name="msg_sync_data_dialog_title">تایید بروزرسانی جداول</string>
+  <string name="msg_sync_data_loading">در حال بررسی بروزرسانی جداول</string>
+  <string name="msg_data_loading">در حال بررسی اطلاعات</string>
+  <string name="err_msg_selectItem">لطفا گزینه مورد نظر خود را انتخاب کنید</string>
+  <string name="err_msg_no_access_user">کاربر جاری دسترسی به این شرکت را ندارد</string>
+  <string name="err_msg_invalid_data">خطا در اطلاعات وارد شده</string>
+  <string name="msg_exit_app">آیا مایل به خروج از اپلیکیشن هستید؟</string>
+  <string name="warning_msg_delete_article">آیا مایل به حذف سطر هستید؟</string>
+  <string name="warning_msg_delete_so">آیا مایل به حذف این سفارش هستید؟</string>
+  <string name="warning_msg_delete_prefactor">آیا مایل به حذف این پیش فاکتور هستید؟</string>
+  <string name="warning_msg_send_all_so">آیا مایل به ارسال تمامی سفارشات هستید؟</string>
+  <string name="warning_msg_close_so_activity">برای خرج از فرم میبایست از منو بالای صفحه گزینه های ذخیره و یا انصراف را انتخاب کنید.</string>
+
+  <string name="msg_save_changes">آیا مایل ذخیره تغییرات انجام شده هستید؟</string>
+
+  <string name="err_msg_new_so_close_customer_without_soarticle">برای این سفارش اطلاعاتی وارد شده است که با حذف سفارش، ذخیره نمی شوند. آیا با این حال مایل به حذف سفارش هستید؟</string>
+  <string name="err_msg_new_prefactor_close_customer_without_soarticle">برای این پیش فاکتور اطلاعاتی وارد شده است که با حذف پیش فاکتور، ذخیره نمی شوند. آیا با این حال مایل به حذف پیش فاکتور هستید؟</string>
+  <string name="err_msg_new_so_close_customer_with_soarticle">برای این سفارش سطرهایی درج شده است که با حذف سفارش، ذخیره نمی شوند. آیا با این حال مایل به حذف سفارش هستید؟</string>
+  <string name="err_msg_new_prefactor_close_customer_with_soarticle">برای این پیش فاکتور سطرهایی درج شده است که با حذف پیش فاکتور، ذخیره نمی شوند. آیا با این حال مایل به حذف پیش فاکتور هستید؟</string>
+  <string name="err_msg_approve_so_without_article">برای این سفارش سطری درج نشده است و تایید سفارش امکان پذیر نمی باشد.</string>
+  <string name="err_msg_approve_prefactor_without_article">برای این پیش فاکتور سطری درج نشده است و تایید پیش فاکتور امکان پذیر نمی باشد.</string>
+  <string name="err_msg_new_article_close_valid_data">در بازگشت از این فرم اطلاعات سطر وارد شده ذخیره نمی گردد. آیا با این حال مایل به بازگشت هستید؟</string>
+  <string name="msg_get_previus_so">آیا مایل به انتقال سفارشات پیش از این ارسال شده کاربر به این دستگاه می باشید؟</string>
+  <string name="msg_logout">با خروج از برنامه تمام اطلاعات پایگاه داده از روی دستگاه حذف میشود و با ورود مجدد این اطلاعات از سرور بازیابی میشوند. آیا مایل به خروج از برنامه هستید؟</string>
+  <string name="err_msg_prefactor_edited">تغییراتی در این پیش فاکتور اعمال شده است و میبایست پیش از خروج ذخیره گردند.آیا مایل به اصلاح هستید؟</string>
+  <string name="err_msg_so_edited">تغییراتی در این سفارش فروش اعمال شده است و میبایست پیش از خروج ذخیره گردند.آیا مایل به اصلاح هستید؟</string>
+
+  <string name="warning_msg_install_app">آیا مایل به نصب نسخه جدید برنامه هستید؟</string>
+
+  <string name="msg_sync_image">در حال بروزرسانی تصاویر</string>
+  <string name="err_msg_negative_total_factor">جمع کل فاکتور عددی منفی است.</string>
+  <string name="err_msg_no_image">کالای انتخاب شده فاقد تصویر است</string>
+  <string name="err_msg_sync_image_operation">همگام سازی تصاویر با موفقیت انجام نشد</string>
+  <string name="err_msg_sync_image_invalid_data">خطا در اطلاعات دریافتی</string>
+  <string name="err_msg_save_data">خطا در ذخیره سازی تصاویر</string>
+  <string name="info_msg_no_response_image">موردی برای بروزرسانی یافت نشد</string>
+  <string name="warning_msg_delete_all_image">آیا مایل به حذف تمام تصاویر هستید؟</string>
+  <string name="succMsg_sync_image_operation">همگام سازی تصاویر با موفقیت انجام شد</string>
+  <string name="succMsg_delete_image_operation">حذف تصاویر با موفقیت انجام شد</string>
+  <string name="err_msg_delete_image_operation">خطا در حذف تصاویر</string>
+
+
+  <string name="err_msg_input_latin">مقادیر را بصورت لاتین وارد نمایید</string>
+
+  <string name="err_msg_not_found_by_barcode">کالایی برای بارکد اسکن شده وجود ندارد.</string>
+  <string name="err_msg_scan_barcode">بارکد خوان</string>
+
+  <!--Reponse Type Contents error = e , warning = w , info = i , success = s-->
+  <string name="e_fa_no_connection">عدم دسترسی به اینترنت</string>
+  <string name="e_en_no_connection">no internet connection</string>
+
+  <string name="e_fa_no_network_access">عدم دسترسی به شبکه</string>
+  <string name="e_en_no_network_access">no network access</string>
+
+  <string name="e_fa_mismatch_data">خطا در درخواست ارسالی</string>
+  <string name="e_en_mismatch_data">mismatch data</string>
+
+  <string name="e_fa_forbidden">عدم دسترسی به صفحه مورد نظر(لطفا پورت وارد شده را تصحیح کنید)</string>
+  <string name="e_en_forbidden">forbidden data</string>
+
+  <string name="e_fa_incompatible_version">نسخه جدید در دسترس است، لطفا برنامه را بروزرسانی کنید</string>
+  <string name="e_en_incompatible_version">Needs to Update</string>
+
+  <string name="e_fa_compatible_version">موردی برای بروزرسانی یافت نشد</string>
+  <string name="e_en_compatible_version">No Update</string>
+
+  <string name="e_fa_client_invalid_data">خطا در داده های ارسالی</string>
+  <string name="e_en_client_invalid_data">client invalid data</string>
+
+  <string name="e_fa_not_available_data">اطلاعات در دسترس نیست</string>
+  <string name="e_en_not_available_data">not available data</string>
+
+  <string name="e_fa_server_invalid_data">خطا در داده های دریافتی</string>
+  <string name="e_en_server_invalid_data">server invalid data</string>
+
+  <string name="e_fa_server_not_found">سرور یافت نشد</string>
+  <string name="e_en_server_not_found">server not found</string>
+
+  <string name="e_fa_request_not_found">سرویس مورد نظر یافت نشد</string>
+  <string name="e_en_request_not_found">request not found</string>
+
+  <string name="e_fa_file_not_found">فایل مورد نظر یافت نشد</string>
+  <string name="e_en_file_not_found">file not found</string>
+
+  <string name="keyboard_info">لطفا زبان کیبرد را در حالت انگلیسی قرار دهید</string>
+  <string name="e_fa_service_access">خطا در دسترسی کاربر به سرویس اندروید</string>
+  <string name="e_en_service_access">error in user android service</string>
+
+  <string name="e_fa_check_sum">خطا در اطلاعات احراز هویت کاربر</string>
+  <string name="e_en_check_sum">error in user authentication</string>
+
+
+  <!--Message error string in send document and related articles-->
+  <string name="e_fa_customer_not_found">خریدار یافت نشد</string>
+  <string name="e_en_customer_not_found">customer not found</string>
+
+  <string name="e_fa_req_date_outof_fp">تاریخ نیاز خارج از محدوده دوره مالی</string>
+  <string name="e_en_req_date_outof_fp">req date outof fp</string>
+
+  <string name="e_fa_user_inaccess_so">عدم دسترسی به ثبت سفارش فروش</string>
+  <string name="e_en_user_inaccess_so">user inaccess sales order</string>
+
+  <string name="e_fa_user_inaccess_prefactor">عدم دسترسی به ثبت پیش فاکتور</string>
+  <string name="e_en_user_inaccess_prefactor">user inaccess prefactor</string>
+
+  <string name="e_fa_merchandise_not_found">کالا یافت نشد</string>
+  <string name="e_en_merchandise_not_found">merchandise not found</string>
+
+  <string name="e_fa_unit_not_found">واحد کالا یافت نشد</string>
+  <string name="e_en_unit_not_found">unit not found</string>
+
+  <string name="e_fa_stockroom_not_found">انبار کالا یافت نشد</string>
+  <string name="e_en_stockroom_not_found">stockroom not found</string>
+
+  <string name="e_fa_invalid_stockroom_cabinet">نام انبار/قفسه معتبر نمی باشد</string>
+  <string name="e_en_invalid_stockroom_cabinet">invalid stockroom and cabinet</string>
+
+  <string name="e_fa_customer_account_not_found">حساب خریدار معتبر نمی باشد</string>
+  <string name="e_en_customer_account_not_found">customer account not found</string>
+
+  <string name="e_fa_customer_credit_not_enough">اعتبار مشتری کافی نیست</string>
+  <string name="e_en_customer_credit_not_enough">customer credit not found</string>
+
+  <string name="e_fa_inventory_not_enough">موجودی کالا کافی نیست</string>
+  <string name="e_en_inventory_not_enough">inventory not enough</string>
+
+  <string name="e_fa_articles">خطا در برخی از سطرها</string>
+  <string name="e_en_articles">error on articles</string>
+
+  <string name="e_fa_invalid_config">خطا در اطلاعات وارد شده</string>
+  <string name="e_en_invalid_config">error on connect to server</string>
+
+  <string name="e_fa_time_out">خطای در سرور یا اتصال ضعیف به شبکه. لطفا دوباره امتحان کنید</string>
+  <string name="e_en_time_out">time out connection</string>
+
+  <string name="e_fa_repeated_customer_name">نام ارائه شده تکراری است</string>
+  <string name="e_en_repeated_customer_name">repeated customer name</string>
+
+  <string name="e_fa_repeated_customer_subscription_no">کد اشتراک وارد شده تکراری است</string>
+  <string name="e_en_repeated_customer_subscription_no">customer subscription no</string>
+
+  <string name="e_fa_missing_customer_after_posting">عدم ایجاد خریدار بعد از ارسال</string>
+  <string name="e_ea_missing_customer_after_posting">missing customer after posting</string>
+
+  <string name="e_fa_no_image">همگام سازی تصاویر صورت نگرفته است</string>
+
+
+  <string name="patch_update_access">نسخه جدید برنامه موجود است</string>
+  <string name="update_desc">نسخه جدیدی از برنامه موجود است، آیا مایل به دریافت آن هستید؟</string>
+  <string name="install_desc">نسخه جدید برنامه بروز رسانی شد، آیا مایل به نصب آن هستید؟</string>
+
+  <string name="warning_sync_so">امکان دریافت سفارش های ارسال شده، پیش از ایجاد اولین سفارش فروش امکان پذیر می باشد، آیا مایل به همگام سازی سفارش های ارسال شده هستید؟</string>
+  <string name="warning_sync_prefactor">امکان دریافت پیش فاکتور های ارسال شده، پیش از ایجاد اولین پیش فاکتور فروش امکان پذیر می باشد، آیا مایل به همگام سازی پیش فاکتور های ارسال شده هستید؟</string>
+
+  <string name="empty_so_Article">هیچ سطری برای این سفارش ثبت نشده!</string>
+  <string name="empty_prefactor_Article">هیچ سطری برای این پیش فاکتور ثبت نشده!</string>
+
+  <string name="err_msg_is_facc_in_leaf_level">تفصیلی شناور انتخاب شده در آخرین سطح قرار ندارد و قابل استفاده نیست.</string>
+
+  <string name="err_user_not_allow">کاربر جاری اجازه استفاده از این امکان را ندارد</string>
+  <string name="err_user_not_allow_append">کاربر جاری امکان ایجاد را ندارد</string>
+  <string name="err_user_not_allow_modify">کاربر جاری امکان اصلاح را ندارد</string>
+  <string name="err_user_not_access">کاربر جاری دسترسی به این امکان را ندارد</string>
+  <string name="err_user_not_allow_delete">کاربر جاری امکان حذف را ندارد</string>
+  <string name="err_user_not_allow_not_buyer">کاربر جاری امکان معرفی مشتری از نوع خریدار را ندارد</string>
+  <string name="err_repeated_customer_name">نام ارائه شده تکراری است</string>
+  <string name="err_repeated_customer_subscription_no">کد اشتراک وارد شده تکراری است</string>
+  <string name="err_input_name">فیلد نام به درستی وارد نشده است</string>
+  <string name="err_input_postal_code">کد پستی به درستی وارد نشده است</string>
+  <string name="err_input_national_code">کد ملی به درستی وارد نشده است</string>
+  <string name="err_missing_row">فرم جاری فاقد سطر می باشد</string>
+  <string name="msg_so_empty">سفارش فاقد سطر می باشد</string>
+  <string name="msg_no_thing_found">موردی یافت نشد</string>
+  <string name="msg_no_customer_committed">خریداری ثبت نشده است</string>
+  <string name="msg_prefactor_empty">پیش فاکتور فاقد سطر می باشد</string>
+  <string name="msg_sent">ارسال شد</string>
+  <string name="msg_not_sent">ارسال نشد</string>
+  <string name="msg_send_in_periodic_time">ارسال شد، حداقل زمان مشاهده و تایید %d دقیقه</string>
+
+
+  <string name="err_print_directory">مسیر چاپ تعیین نشده است</string>
+  <string name="err_print_execute">برنامه چاپ سمت سرور اجرا نیست</string>
+  <string name="err_print_invalid_data">برنامه چاپ سرور روی چاپ این فرم خطا داده است</string>
+  <string name="err_print">خطا در پیش نمایش فایل چاپی</string>
+
+  <string name="err_disconnect_special_code">برای استفاده از این امکان نیاز است کد ویژه خریدار/فروشنده متفرقه به یک حساب مشخص متصل گردد</string>
+  <string name="wrn_msg_invalid_customer_sync">خریداری برای کاربر جاری تعیین نشده است</string>
+
+
+  <string name="err_msg_validation_sync_merchstock">انبار وابسته تعریف نشده است</string>
+  <string name="err_msg_validation_sync_stock_access">کاربر جاری به انبار دسترسی ندارد</string>
+  <string name="err_msg_validation_sync_merch_in_merch_stock">کاربر جاری به انبارهای وابسته دسترسی ندارد</string>
+  <string name="err_msg_validation_sync_stock">انبار تعریف نشده است</string>
+  <string name="err_msg_validation_sync_customer_user">برای کاربر جاری خریداری تعریف نشده است</string>
+  <string name="err_msg_validation_sync_customer">خریدار تعریف نشده است</string>
+  <string name="err_msg_validation_sync_merchandise">کالایی تعریف نشده است</string>
+
+  <string name="err_msg_invalid_access_add_spfactor">کاربر جاری اجازه ایجاد پیش فاکتور را ندارد</string>
+  <string name="err_msg_invalid_access_add_salesorder">کاربر جاری اجازه ایجاد سفارش فروش را ندارد</string>
+  <string name="err_msg_invalid_access_add_merchandise">کاربر جاری اجازه دسترسی به ایجاد اقلام را ندارد</string>
+</resources>

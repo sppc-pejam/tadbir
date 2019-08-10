@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_acc_vector"
+            app:startDestination="@id/accountFragment">
+
+  <fragment
+    android:id="@+id/accountFragment"
+    android:name="com.sppcco.customer.ui.acc_vector.account.AccountFragment"
+    tools:layout="@layout/fragment_account">
+    <action
+      android:id="@+id/action_accountFragment_to_detailAccFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/detailAccFragment"/>
+    <action
+      android:id="@+id/action_accountFragment_to_costCenterFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/costCenterFragment"/>
+    <action
+      android:id="@+id/action_accountFragment_to_projectFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/projectFragment"/>
+  </fragment>
+
+  <fragment
+    android:id="@+id/detailAccFragment"
+    android:name="com.sppcco.customer.ui.acc_vector.detail_acc.DetailAccFragment"
+    android:label="fragment_detail_acc"
+    tools:layout="@layout/fragment_detail_acc">
+    <action
+      android:id="@+id/action_detailAccFragment_to_costCenterFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/costCenterFragment"/>
+    <action
+      android:id="@+id/action_detailAccFragment_to_projectFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/projectFragment"/>
+    <action
+      android:id="@+id/action_detailAccFragment_to_accountFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/accountFragment"/>
+  </fragment>
+
+  <fragment
+    android:id="@+id/costCenterFragment"
+    android:name="com.sppcco.customer.ui.acc_vector.cost_center.CostCenterFragment"
+    android:label="fragment_cost_center"
+    tools:layout="@layout/fragment_cost_center">
+    <action
+      android:id="@+id/action_costCenterFragment_to_projectFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/projectFragment"/>
+    <action
+      android:id="@+id/action_costCenterFragment_to_accountFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@+id/accountFragment"
+      />
+    <action
+      android:id="@+id/action_costCenterFragment_to_detailAccFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/detailAccFragment"/>
+  </fragment>
+
+  <fragment
+    android:id="@+id/projectFragment"
+    android:name="com.sppcco.customer.ui.acc_vector.project.ProjectFragment"
+    android:label="fragment_project"
+    tools:layout="@layout/fragment_project">
+    <action
+      android:id="@+id/action_projectFragment_to_accountFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/accountFragment"/>
+    <action
+      android:id="@+id/action_projectFragment_to_detailAccFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/detailAccFragment"/>
+    <action
+      android:id="@+id/action_projectFragment_to_costCenterFragment"
+      android:label="fragment_detail_acc"
+      app:destination="@id/costCenterFragment"/>
+  </fragment>
+
+</navigation>

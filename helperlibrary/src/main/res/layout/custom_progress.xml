@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="end"
+  android:orientation="vertical"
+  android:padding="4dp"
+  android:layoutDirection="ltr">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="0.8"
+        android:gravity="end"
+        android:text="TextView"/>
+
+    <ProgressBar
+      android:id="@+id/prg_spinner"
+      style="?android:attr/progressBarStyle"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="end"
+      android:layout_weight="0.2"/>
+
+  </LinearLayout>
+
+  <ProgressBar
+    android:id="@+id/prg_horizontal"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="4dp"
+    android:paddingStart="4dp"
+    tools:visibility="visible"/>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <TextView
+      android:id="@+id/tv_prg_num"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:gravity="start"
+      android:text="TextView"/>
+
+    <TextView
+      android:id="@+id/tv_percent"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:gravity="end"
+      android:text="TextView"/>
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="esme_sherkate">شرکت ارس پر</string>
+  <string name="esme_test">تست</string>
+
+  <string name="cpt_callIdService">شناسه فراخوانی سرویس</string>
+  <string name="cpt_username">نام کاربری</string>
+  <string name="cpt_company_name">انتخاب شرکت</string>
+  <string name="cpt_enter">ورود</string>
+  <string name="cpt_exit">خروج</string>
+  <string name="cpt_password">کلمه عبور</string>
+  <string name="cpt_login">لطفا نام کاربری و کلمه عبور را وارد نمایید</string>
+  <string name="cpt_remember">مرا به خاطر بسپار</string>
+  <string name="cpt_work_space_list">لیست شرکت ها</string>
+  <string name="cpt_fiscal_period">دوره مالی</string>
+  <string name="cpt_appLogin">ورود به سیستم جامع مالی و اداری تدبیر</string>
+  <string name="cpt_start_date">تاریخ شروع</string>
+  <string name="cpt_end_date">تاریخ پایان</string>
+  <string name="cpt_number_picker_so">سفارش فروش مورد نظر خود را انتخاب کنید</string>
+  <string name="cpt_number">شماره</string>
+  <string name="cpt_date">تاریخ</string>
+  <string name="cpt_so_date_time">تاریخ و زمان سفارش</string>
+  <string name="cpt_prefactor_date_time">تاریخ و زمان پیش فاکتور</string>
+  <string name="cpt_customer_credit_balance">اعتبار باقیمانده</string>
+  <string name="cpt_customer_credit">مانده حساب</string>
+  <string name="cpt_credit">اعتبار</string>
+  <string name="cpt_customer">خریدار</string>
+  <string name="cpt_customer_code">کد خریدار</string>
+  <string name="cpt_customer_code_label">کد خریدار:</string>
+  <string name="cpt_req_date">تاریخ نیاز</string>
+  <string name="cpt_acc">حساب خریدار</string>
+  <string name="cpt_exporter">صادر کننده</string>
+  <string name="cpt_verifier">تایید کننده</string>
+  <string name="cpt_approver">تصویب کننده</string>
+  <string name="cpt_new">جدید</string>
+  <string name="cpt_modify">ویرایش</string>
+  <string name="cpt_edit">اصلاح</string>
+  <string name="cpt_remove">حذف</string>
+  <string name="cpt_delete">حذف</string>
+  <string name="cpt_search">جستجو</string>
+  <string name="cpt_save">ذخیره</string>
+  <string name="cpt_cancel">انصراف</string>
+  <string name="cpt_select">انتخاب</string>
+  <string name="cpt_add">جدید</string>
+  <string name="cpt_reserve">رزرو</string>
+  <string name="cpt_serial1">سریال اول</string>
+  <string name="cpt_serial2">سریال دوم</string>
+  <string name="cpt_amount1">مقدار فرعی اول</string>
+  <string name="cpt_amount2">مقدار فرعی دوم</string>
+  <string name="cpt_remainder">تخفیف</string>
+  <string name="cpt_price">قیمت</string>
+  <string name="cpt_sales_price">قیمت پیشنهادی</string>
+  <string name="cpt_discount">تخفیف</string>
+  <string name="cpt_sales_discount">تخفیف پیشنهادی</string>
+  <string name="cpt_sales_discount_percent">درصد تخفیف پیشنهادی</string>
+  <string name="cpt_total_price">قیمت کل</string>
+  <string name="cpt_sum_total">مبلغ کل</string>
+  <string name="cpt_unit_price">قیمت واحد</string>
+  <string name="cpt_stock">انبار</string>
+  <string name="cpt_cabinet">قفسه</string>
+  <string name="cpt_unit">واحد</string>
+  <string name="cpt_amount">مقدار</string>
+  <string name="cpt_merch_code">کد کالا</string>
+  <string name="cpt_merch_name">نام کالا</string>
+  <string name="cpt_merchandise">کالا</string>
+  <string name="cpt_total_label">جمع کل:</string>
+  <string name="cpt_total">جمع کل</string>
+  <string name="cpt_sum_label">جمع:</string>
+  <string name="cpt_sum">مجموع</string>
+  <string name="cpt_select_all">انتخاب همه</string>
+  <string name="cpt_city">شهر</string>
+
+  <string name="cpt_search_customer_by_name">جست و جو بر اساس نام خریدار</string>
+  <string name="cpt_search_customer_by_id">جست و جو بر اساس کد خریدار</string>
+  <string name="cpt_send">ارسال</string>
+  <string name="cpt_receive">دریافت</string>
+  <string name="cpt_sales_order">سفارش فروش</string>
+  <string name="cpt_sales_order_no">سفارش فروش شماره</string>
+
+  <string name="cpt_detail_acc_name">نام تفصیلی شناور</string>
+  <string name="cpt_detail_acc_code">کد تفصیلی شناور</string>
+
+  <string name="cpt_sales_order_date">تاریخ سفارش فروش</string>
+  <string name="cpt_prefactor">پیش فاکتور</string>
+  <string name="cpt_sales_order_form_name">ثبت سفارش فروش</string>
+  <string name="cpt_prefactor_form_name">پیش فاکتور فروش</string>
+  <string name="cpt_prefactor_no">پیش فاکتور شماره</string>
+  <string name="cpt_prefactor_date">تاریخ پیش فاکتور</string>
+  <string name="cpt_close">بستن</string>
+  <string name="cpt_back">بازگشت</string>
+  <string name="cpt_reference_number">شماره ارجاع</string>
+  <string name="cpt_reference">ارجاع</string>
+  <string name="cpt_row">ردیف</string>
+  <string name="cpt_error">خطا</string>
+  <string name="cpt_warning">اخطار</string>
+  <string name="cpt_sync_history">آخرین همگام سازی</string>
+
+  <string name="cpt_agree">موافقت</string>
+  <string name="cpt_disagree">مخالفت</string>
+  <string name="cpt_approve">تایید</string>
+  <string name="cpt_dismiss">انصراف</string>
+  <string name="cpt_yes">بله</string>
+  <string name="cpt_no">خیر</string>
+
+  <string name="cpt_status_of_posted_customer">وضعیت خریداران ارسال شده</string>
+  <string name="cpt_search_by_customer">جستجو بر اساس خریدار</string>
+  <string name="cpt_search_by_merchandise">جستجو بر اساس نام، کد، بارکد و…</string>
+  <string name="cpt_search_merchandise">انتخاب کالا</string>
+
+  <string name="cpt_complete_list">لیست کامل</string>
+
+  <string name="cpt_so_articles">سطرهای سفارش فروش</string>
+  <string name="cpt_so_information">اطلاعات سفارش فروش</string>
+  <string name="cpt_so_reference_information">اطلاعات ارجاعات سفارش فروش</string>
+  <string name="cpt_reference_information">اطلاعات ارجاعات</string>
+  <string name="cpt_tap_show_so_articles">نمایش سطرهای سفارش</string>
+  <string name="cpt_tap_show_prefactor_articles">نمایش سطرهای پیش فاکتور</string>
+  <string name="cpt_so_articles_list">لیست سطرهای سفارش فروش</string>
+  <string name="cpt_prefactor_articles_list">لیست سطرهای پیش فاکتور</string>
+  <string name="cpt_article">سطر</string>
+  <string name="cpt_add_article">ایجاد سطر</string>
+  <string name="cpt_edit_article">اصلاح سطر</string>
+  <string name="cpt_back_to_so">بازگشت به سفارش</string>
+  <string name="cpt_back_to_prefactor">بازگشت به پیش فاکتور</string>
+
+  <string name="cpt_add_article_select_again">افزودن سطر - انتخاب مجدد</string>
+  <string name="cpt_add_article_back_to_articles">افزودن سطر - بازگشت</string>
+
+
+  <string name="cpt_approve_so">تایید سفارش</string>
+  <string name="cpt_edit_so">اصلاح سفارش</string>
+  <string name="cpt_approved">تایید شده</string>
+  <string name="cpt_edited">اصلاح شده</string>
+  <string name="cpt_faulted">خطا دار</string>
+  <string name="cpt_retrieved">بازیابی شده</string>
+
+  <!--crd_approved_so & crd_posted_so-->
+  <string name="cpt_no_label">شماره:</string>
+  <string name="cpt_status_label">وضعیت:</string>
+  <string name="cpt_status">وضعیت</string>
+  <string name="cpt_date_label">تاریخ:</string>
+  <string name="cpt_customer_label">خریدار:</string>
+  <string name="cpt_reference_label">شماره ارجاع:</string>
+  <string name="cpt_post_date_label">تاریخ ارسال:</string>
+  <string name="cpt_post_date">تاریخ ارسال</string>
+  <string name="cpt_post_datetime">تاریخ و زمان ارسال</string>
+
+
+  <!--crd_so-->
+  <string name="cpt_merchandise_label">کالا:</string>
+  <string name="cpt_amount_label">مقدار:</string>
+  <string name="cpt_unit_label">واحد:</string>
+
+
+  <!--fragment _ settings-->
+  <string name="cpt_reports">گزارشات</string>
+  <string name="cpt_update">به‌‎روز‌رسانی</string>
+  <string name="cpt_sync">همگام سازی</string>
+  <string name="cpt_sync_table">همگام سازی جداول</string>
+  <string name="cpt_sync_images">همگام سازی تصاویر</string>
+  <string name="cpt_image">تصاویر</string>
+  <string name="cpt_show_image">نمایش تصاویر</string>
+  <string name="cpt_app_update">بروزرسانی برنامه</string>
+  <string name="cpt_low_quality_image">حجم پایین</string>
+  <string name="cpt_high_quality_image">حجم بالا</string>
+  <string name="cpt_relation_us">ارتباط با ما</string>
+  <string name="cpt_about_us">درباره ما</string>
+  <string name="cpt_call_us">تماس با ما</string>
+  <string name="cpt_sign_out">خروج</string>
+  <string name="cpt_test">تست</string>
+  <string name="cpt_more">بیشتر</string>
+  <string name="cpt_more_plus">بیشتر</string>
+  <string name="cpt_more_information">اطلاعات بیشتر</string>
+  <string name="cpt_supplementary_information">اطلاعات تکمیلی</string>
+  <string name="cpt_more_details">جزئیات بیشتر</string>
+  <string name="cpt_other_information">سایر اطلاعات</string>
+  <string name="cpt_user_settings">تنظیمات کاربر</string>
+  <string name="cpt_settings">تنظیمات</string>
+  <string name="cpt_others_sync">همگام سازی سفارشات و پیش فاکتورهای قبلی</string>
+  <string name="cpt_sync_so">همگام سازی سفارش های ارسال شده</string>
+  <string name="cpt_sync_prefactor">همگام سازی پیش فاکتورهای ارسال شده</string>
+  <string name="cpt_base_information">اطلاعات پایه</string>
+
+
+  <!--fragment_web_service_cfg-->
+  <string name="cpt_iP_address_fa">آی پی</string>
+  <string name="cpt_port_fa">پورت</string>
+  <string name="cpt_ip_address_en">IP Address</string>
+  <string name="cpt_port_en">Port</string>
+  <string name="cpt_key">Verification Key</string>
+  <string name="cpt_post">ارسال</string>
+
+  <string name="cpt_got_it">متوجه شدم</string>
+  <string name="cpt_showcase_new_so">برای ایجاد سفارش فروش جدید از این قسمت استفاده نمایید.</string>
+  <string name="cpt_showcase_sync">این قسمت برای همگام سازی جداول تلفن همراه با دیتابیس تدبیر می باشد.پیش از اولین سفارش حتما این قسمت را اجرا نمایید.</string>
+  <string name="cpt_showcase_so_fab">برای وارد کردن آرتیکل جدید از این قسمت استفاده کنید.</string>
+  <string name="cpt_showcase_so_article_recycler_view">در این قسمت لیست آرتیکل های سفارش فروش را خواهید دید.با لمس طولانی هر آرتیکل امکان حذف آن آرتیکل را خواهید داشت.</string>
+
+  <!--fragment_search_merchandise-->
+  <string name="cpt_three_dash">---</string>
+  <string name="cpt_all_stock">همه انبارها</string>
+  <string name="cpt_all_cabinet">همه قفسه ها</string>
+  <string name="cpt_stock_name">لیست انبارها</string>
+  <string name="cpt_inv_total">موجودی کل</string>
+  <string name="cpt_inv_stock">موجودی انبار</string>
+  <string name="cpt_cabinet_name">لیست قفسه ها</string>
+  <string name="cpt_inv_cabinet">موجودی قفسه</string>
+  <string name="cpt_sort_by_name">مرتب سازی بر اساس نام</string>
+  <string name="cpt_sort_by_code">مرتب سازی بر اساس کد</string>
+  <string name="cpt_sort_by">مرتب سازی بر اساس شماره</string>
+  <string name="cpt_sort">مرتب سازی</string>
+  <string name="cpt_refresh">تازه کردن</string>
+
+
+
+  <string name="cpt_ascending">صعودی</string>
+  <string name="cpt_descending">نزولی</string>
+  <string name="cpt_acc_parent">حساب والد</string>
+  <string name="acc_vector">بردار حساب</string>
+  <string name="cpt_reminder">تخفیف</string>
+  <string name="cpt_tax_avarez">مالیات و عوارض</string>
+  <string name="cpt_rial">ریال</string>
+  <string name="cpt_reference_date">تاریخ ارجاع</string>
+
+  <!--acc vector-->
+  <string name="cpt_account_code">کد حساب</string>
+  <string name="cpt_account_name">نام حساب</string>
+  <string name="cpt_search_by_name_or_code">جستجو بر اساس نام یا کد</string>
+
+
+  <string name="cpt_install">نصب</string>
+  <string name="cpt_open_dir">نمایش فایل</string>
+
+  <string name="cpt_search_by_broker">جستجو بر اساس نام واسطه</string>
+
+  <string name="cpt_no_0">0</string>
+  <string name="cpt_no_1">1</string>
+  <string name="cpt_no_2">2</string>
+  <string name="cpt_no_3">3</string>
+  <string name="cpt_no_4">4</string>
+  <string name="cpt_no_5">5</string>
+  <string name="cpt_no_6">6</string>
+  <string name="cpt_no_7">7</string>
+  <string name="cpt_no_8">8</string>
+  <string name="cpt_no_9">9</string>
+
+  <string name="cpt_name">نام</string>
+  <string name="cpt_code">کد</string>
+  <string name="cpt_subscription_no">کد اشتراک</string>
+  <string name="cpt_mobile">تلفن همراه</string>
+  <string name="cpt_phone">تلفن</string>
+  <string name="cpt_address">آدرس</string>
+  <string name="cpt_postal_code">کد پستی</string>
+  <string name="cpt_fax">فکس</string>
+  <string name="cpt_email">ایمیل</string>
+  <string name="cpt_national_code">کد ملی</string>
+  <string name="cpt_ecc_code">کد اقتصادی</string>
+  <string name="cpt_register_code">شماره ثبت/کد ملی</string>
+  <string name="cpt_description">توضیحات</string>
+  <string name="cpt_desc">شرح</string>
+  <string name="cpt_confirm">تایید</string>
+  <string name="cpt_confirmation">تاییدیه</string>
+  <string name="cpt_customer_name">نام خریدار</string>
+  <string name="cpt_customer_ecCode">کد اقتصادی</string>
+  <string name="cpt_create_update_customer">ایجاد/اصلاح خریدار</string>
+
+  <string name="cpt_name_code">نام - کد</string>
+  <string name="cpt_communication">ارتباطات</string>
+  <string name="cpt_identify">شناسه ها</string>
+  <string name="cpt_desc_confirm">توضیحات و تایید</string>
+  <string name="cpt_continue">ادامه</string>
+
+  <string name="cpt_remove_status">حذف شده</string>
+  <string name="cpt_remove_from_list">حذف از  لیست</string>
+  <string name="cpt_in_approve_list">در لیست تایید</string>
+  <string name="cpt_again_request">درخواست مجدد</string>
+  <string name="cpt_approved_need_sync">تایید شده (نیاز به همگام سازی)</string>
+
+</resources>

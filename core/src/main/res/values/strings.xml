@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">core</string>
+    <string name="iranian_sans_fa_num">fonts/iranian-sans-mobile-fa-num.ttf</string>
+    <string name="iranian_sans_en_num">fonts/iranian-sans-light.ttf</string>
+
+
+    <string name="insert_sp_customer_desc">ایجاد خریدار توسط کاربر اندروید</string>
+    <string name="insert_sp_purchase_desc">ایجاد فاکتور خرید توسط کاربر اندروید</string>
+    <string name="delete_sp_purchase_desc">حذف فاکتور خرید توسط کاربر اندروید</string>
+    <string name="insert_sp_sales_desc">ایجاد فاکتور فروش توسط کاربر اندروید</string>
+    <string name="delete_sp_sales_desc">حذف فاکتور فروش توسط کاربر اندروید</string>
+    <string name="insert_sp_p_return_desc">ایجاد فاکتور برگشت از فروش توسط کاربر اندروید</string>
+    <string name="delete_sp_p_return_desc">حذف فاکتور برگشت از فروش توسط کاربر اندروید</string>
+    <string name="insert_sp_s_return_desc">ایجاد فاکتور برگشت از خرید توسط کاربر اندروید</string>
+    <string name="delete_sp_s_return_desc">حذف فاکتور برگشت از خرید توسط کاربر اندروید</string>
+    <string name="insert_sp_presales_desc">ایجاد پیش فاکتور فروش توسط کاربر اندروید</string>
+    <string name="delete_sp_presales_desc">حذف پیش فاکتور فروش توسط کاربر اندروید</string>
+    <string name="insert_spf_sales_order_desc">ایجاد سفارش فروش توسط کاربر اندروید</string>
+    <string name="delete_spf_sales_order_desc">حذف سفارش فروش توسط کاربر اندروید</string>
+
+
+    <string name="list_title">title</string>
+    <string name="statistics_title">statistics_title</string>
+
+    <string name="title_add_so_activity">ثبت سفارش فروش</string>
+    <string name="title_edit_so_activity">اصلاح سفارش فروش</string>
+    <string name="title_review_so_activity">مشاهده سفارش فروش</string>
+    <string name="title_add_so_article_activity">ثبت سطرهای سفارش فروش</string>
+    <string name="title_edit_so_article_activity">اصلاح سطرهای سفارش فروش</string>
+    <string name="title_add_edit_so_article_activity">ایجاد-اصلاح سطرهای سفارش فروش</string>
+    <string name="title_add_prefactor_activity">ثبت پیش فاکتور</string>
+    <string name="title_edit_prefactor_activity">اصلاح پیش فاکتور</string>
+    <string name="title_review_prefactor_activity">مشاهده پیش فاکتور</string>
+    <string name="title_add_prefactor_article_activity">ثبت سطرهای پیش فاکتور</string>
+    <string name="title_edit_prefactor_article_activity">اصلاح سطرهای پیش فاکتور</string>
+    <string name="title_add_edit_prefactor_article_activity">ایجاد-اصلاح سطرهای پیش فاکتور</string>
+    <string name="title_web_service_cfg">پیکربندی شبکه</string>
+    <string name="title_login">ورود</string>
+
+    <string name="title_about_us">آشنایی با پردازش موازی سامان</string>
+    <string name="version_title">نسخه</string>
+
+    <string name="title_contact_us">تماس با ما</string>
+    <string name="address_sppc">تهران، میدان ولیعصر، ساختمان تجارت ایرانیان</string>
+    <string name="phone_number">83890</string>
+    <string name="email_address">support@sppc.co.ir</string>
+    <string name="home_page">www.sppc.co.ir</string>
+    <string name="telegram_id">\@tadbiraccounting</string>
+    <string name="instagram_id">\@sppcco</string>
+
+    <!-- demo strings -->
+    <string name="demo_ip_address">"130.185.76.7"</string>
+    <string name="demo_port_number">"9020"</string>
+    <string name="demo_key">"1234"</string>
+    <string name="demo_database_name">"ARASPAR"</string>
+    <string name="demo_company_name">"دمو"</string>
+    <string name="demo_current_userId">"12"</string>
+
+    <string name="demo_user_name">"demo"</string>
+    <string name="demo_password">"123456"</string>
+
+    <string name="demo_fp_no">"1"</string>
+    <string name="demo_fp_name">"دوره اول"</string>
+    <string name="demo_fp_stype">"1"</string>
+
+    <!-- UNavigationDrawerActivity -->
+    <string name="menu_user_account">"حساب کاربری"</string>
+    <string name="menu_sync">"همگام سازی جداول"</string>
+    <string name="menu_sync_so">"همگام سازی سفارشات ماه گذشته"</string>
+    <string name="menu_sync_pre_factor">"همگام سازی پیش فاکتورهای ماه گذشته"</string>
+    <string name="menu_customers">"خریداران"</string>
+    <string name="menu_update_app">"بروزرسانی برنامه"</string>
+    <string name="menu_about_us">درباره ما</string>
+    <string name="menu_contact_us">تماس با ما</string>
+    <string name="menu_exit">خروج</string>
+    <string name="menu_overflow">موارد بیشتر</string>
+
+    <!-- activity_main_menu -->
+    <string name="main_menu_prefactor">پیش فاکتور</string>
+    <string name="main_menu_so">سفارش فروش</string>
+    <string name="main_menu_settings">"تنظیمات"</string>
+
+    <string name="menu_tab_posted">ارسال شده ها</string>
+    <string name="search_in_posted">جستجو در ارسال شده ها …</string>
+    <string name="menu_tab_approved">آماده ارسال</string>
+
+
+    <!-- fragment_show_so -->
+    <string name="frg_show_so_menu_send_all">"ارسال گروهی سفارشات"</string>
+
+    <!-- TablesStatus -->
+    <array name="customer">
+        <item name="table_name">__Customer__</item>
+        <item name="engish_name">Customer</item>
+        <item name="persian_name">خریدار و فروشنده</item>
+    </array>
+    <array name="merchandise">
+        <item name="title">__Merchandise__</item>
+        <item name="service">Merchandise</item>
+        <item name="operation">کالا</item>
+    </array>
+    <array name="unit">
+        <item name="title">__Unit__</item>
+        <item name="service">Unit</item>
+        <item name="operation">واحد</item>
+    </array>
+    <array name="sales_price">
+        <item name="title">__SalesPrice__</item>
+        <item name="service">SalesPrice</item>
+        <item name="operation">قیمت فروش</item>
+    </array>
+    <array name="account">
+        <item name="title">__Account__</item>
+        <item name="service">Account</item>
+        <item name="operation">حساب</item>
+    </array>
+    <array name="cost_center">
+        <item name="title">__CostCenter__</item>
+        <item name="service">CostCenter</item>
+        <item name="operation">مرکز هزینه</item>
+    </array>
+    <array name="detail_acc">
+        <item name="title">__Detailacc__</item>
+        <item name="service">Detailacc</item>
+        <item name="operation">بردار حساب</item>
+    </array>
+    <array name="project">
+        <item name="title">__Project__</item>
+        <item name="service">Project</item>
+        <item name="operation">پروژه</item>
+    </array>
+    <array name="options">
+        <item name="title">__Options__</item>
+        <item name="service">Options</item>
+        <item name="operation">دسترسی</item>
+    </array>
+    <array name="sp_factor">
+        <item name="title">__Options__</item>
+        <item name="service">Options</item>
+        <item name="operation">دسترسی</item>
+    </array>
+    <array name="sp_article">
+        <item name="title">__Options__</item>
+        <item name="service">Options</item>
+        <item name="operation">دسترسی</item>
+    </array>
+    <array name="stock_room">
+        <item name="title">__StockRoom__</item>
+        <item name="service">StockRoom</item>
+        <item name="operation">انبار</item>
+    </array>
+    <array name="cabinet">
+        <item name="title">__Cabinet__</item>
+        <item name="service">Cabinet</item>
+        <item name="operation">قفسه</item>
+    </array>
+    <array name="merch_stock">
+        <item name="title">__MerchStock__</item>
+        <item name="service">MerchStock</item>
+        <item name="operation">انبار وابسته</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="img_add_edit_article">img_add_edit_article</string>
+    <string name="img_divider">img_divider</string>
+    <string name="img_merch">img_merch</string>
+    <string name="img_arrow">img_arrow</string>
+    <string name="enter">ورود</string>
+    <string name="save_setting">ذخیره تنظیمات</string>
+
+    <string name="cpt_log_out">خروج از حساب کاربری</string>
+    <string name="title_version_changes">تغییرات برنامه</string>
+    <string name="username_label">نام کاربری:</string>
+    <string name="cpt_comany_name_label">نام شرکت:</string>
+    <string name="cpt_fpid_name_label">نام دوره مالی:</string>
+    <string name="cpt_fpid_date_label">تاریخ دوره مالی:</string>
+    <string name="cpt_time_span">انتخاب بازه زمانی</string>
+
+    <string name="cpt_other_cases">سایر موارد</string>
+    <string name="toolbar_title">Toolbar Title</string>
+    <string name="time_span_prompt">انتخاب بازه زمانی</string>
+    <string name="cpt_error_label">خطا:</string>
+    <string name="cpt_observation">مشاهده</string>
+    <string name="cpt_approve_date">تاریخ تایید</string>
+    <string name="cpt_twelfth_month">12 ماهه</string>
+    <string name="cpt_ninth_month">9 ماهه</string>
+    <string name="cpt_sixth_month">6 ماهه</string>
+    <string name="cpt_third_month">3 ماهه</string>
+    <string name="cpt_first_month">1 ماهه</string>
+    <string name="cpt_retry">تلاش مجدد</string>
+    <string name="cpt_account">حساب</string>
+    <string name="cpt_detail_acc">تفصیلی شناور</string>
+    <string name="cpt_cost_center">مرکز هزینه</string>
+    <string name="cpt_project">پروژه</string>
+    <string name="cpt_purchaser_account">حساب خریدار</string>
+    <string name="search_account_hint">جستجو براساس کد، نام حساب</string>
+    <string name="search_detail_acc_hint">جستجو براساس کد، نام تفصیلی</string>
+    <string name="search_cost_center_hint">جستجو براساس کد، نام مرکز هزینه</string>
+    <string name="search_project_hint">جستجو براساس کد، نام پروژه</string>
+    <string name="cpt_broker_name">نام واسطه فروش</string>
+    <string name="hnt_select_broker">انتخاب واسطه</string>
+    <string name="cpt_buyer_account">حساب خریدار</string>
+    <string name="cpt_account_vector_balance">مانده حساب بردار</string>
+    <string name="cpt_account_selected_balance">مانده حساب انتخابی</string>
+    <string name="img_date_label">img_date_label</string>
+    <string name="cart">Cart</string>
+    <string name="print">پیش نمایش</string>
+    <string name="img_below_shadow">img_below_shadow</string>
+    <string name="select_customer">انتخاب خریدار</string>
+    <string name="select_other_customer">خریدار متفرقه</string>
+    <string name="cpt_other_customer">مشتری متفرقه</string>
+    <string name="cpt_sp_other_customer">خریدار متفرقه</string>
+    <string name="further_information_so">اطلاعات تکمیلی سفارش فروش</string>
+    <string name="further_information_prefactor">اطلاعات تکمیلی پیش فاکتور</string>
+    <string name="mobile">تلفن همراه</string>
+    <string name="phone">تلفن</string>
+    <string name="address">آدرس</string>
+    <string name="bt_close">bt_close</string>
+    <string-array name="time_span">
+        <item>1 ماه</item>
+        <item>3 ماه</item>
+        <item>6 ماه</item>
+        <item>9 ماه</item>
+        <item>12 ماه</item>
+    </string-array>
+
+    <string name="cpt_select_company">انتخاب شرکت</string>
+    <string name="cpt_choice_customer_type">انتخاب نوع خریدار / فروشنده</string>
+    <string name="cpt_merch_details">مشخصات کالا</string>
+    <string name="cpt_tadbir">تدبیر</string>
+    <string name="cpt_default_item_percent">0/0</string>
+    <string name="cpt_default_percent">0%</string>
+    <string name="msg_error_sync_previous_prefactor">خطا در همگام سازی پیش فاکتور ها</string>
+    <string name="msg_error_add_prefactor">خطا در ایجاد پیش فاکتور</string>
+
+    <array name="customer_type">
+        <item name="customer">خریدار و فروشنده</item>
+        <item name="other_customer">خریدار و فروشنده متفرقه</item>
+    </array>
+
+</resources>

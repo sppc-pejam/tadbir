@@ -1,0 +1,1 @@
+include ':sp_app', ':core', ':sp', ':customer', ':customer_app', ':helperlibrary', ':data_entry_widgets', ':merchandise', ':merchandise_app', ':photoview'

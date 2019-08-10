@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="lbl_name">نام:</string>
+  <string name="lbl_code">کد:</string>
+  <string name="lbl_subscription_no">کد اشتراک:</string>
+  <string name="lbl_mobile">تلفن همراه:</string>
+  <string name="lbl_phone">تلفن:</string>
+  <string name="lbl_address">آدرس:</string>
+  <string name="lbl_postal_code">کد پستی:</string>
+  <string name="lbl_fax">فکس:</string>
+  <string name="lbl_email">ایمیل:</string>
+  <string name="lbl_national_code">کد ملی:</string>
+  <string name="lbl_ecc_code">کد اقتصادی:</string>
+  <string name="lbl_register_code">شماره ثبت/کد ملی:</string>
+  <string name="lbl_description">توضیحات:</string>
+  <string name="lbl_desc">شرح:</string>
+  <string name="lbl_confirm">تایید:</string>
+  <string name="lbl_confirmation">تاییدیه:</string>
+  <string name="lbl_customer_name">نام خریدار:</string>
+
+</resources>

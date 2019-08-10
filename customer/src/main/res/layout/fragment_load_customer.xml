@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/parent_view"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layoutDirection="ltr"
+  android:orientation="vertical">
+
+  <com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl">
+
+    <include layout="@layout/toolbar"/>
+
+  </com.google.android.material.appbar.AppBarLayout>
+
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+      android:id="@+id/view"
+      android:layout_width="match_parent"
+      android:layout_height="?android:attr/actionBarSize"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/rcl_articles"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/view"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/cl_no_item"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/_26sdp"
+      app:layout_constraintBottom_toBottomOf="@+id/rcl_articles"
+      app:layout_constraintEnd_toEndOf="@+id/rcl_articles"
+      app:layout_constraintStart_toStartOf="@+id/rcl_articles"
+      app:layout_constraintTop_toTopOf="@+id/rcl_articles"
+      >
+
+      <include
+        android:id="@+id/include2"
+        layout="@layout/no_item_archived"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatTextView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+      <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView9"
+        style="@style/UTextAppearance.Subtitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/msg_no_thing_found"
+        android:textColor="@color/secondary_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include2"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/fab_add"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom|right"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:tint="@color/white"
+    app:backgroundTint="@color/fab_color"
+    app:fabSize="normal"
+    app:layout_anchorGravity="right|top"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:srcCompat="@drawable/ic_add_w_24"
+    tools:ignore="RtlHardcoded,VectorDrawableCompat"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

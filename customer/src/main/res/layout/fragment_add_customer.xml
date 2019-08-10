@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/bts_bg_white"
+  android:layoutDirection="ltr">
+
+  <com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/appBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layoutDirection="rtl">
+
+    <include layout="@layout/toolbar"/>
+
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:paddingLeft="8dp"
+      android:paddingRight="8dp">
+
+      <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="@dimen/spacing_xlarge"
+        android:layout_height="@dimen/spacing_mlarge"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+          android:layout_width="2dp"
+          android:layout_height="match_parent"
+          android:background="@color/grey_20"/>
+
+      </androidx.appcompat.widget.LinearLayoutCompat>
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+          android:id="@+id/linearLayoutCompat1"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:gravity="center_horizontal"
+          android:orientation="vertical"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+          <RelativeLayout
+            android:id="@+id/step_title_1"
+            android:layout_width="@dimen/spacing_xlarge"
+            android:layout_height="@dimen/spacing_xlarge"
+            android:background="@drawable/shape_round_solid"
+            android:gravity="center">
+
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/cpt_no_1"
+              android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+              android:textColor="@android:color/white"/>
+
+          </RelativeLayout>
+
+          <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_20"
+            android:minHeight="?android:attr/actionBarSize"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/tv_title_no_1"
+          style="@style/UTextAppearance.Headline1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:foreground="?selectableItemBackground"
+          app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat1"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <net.cachapa.expandablelayout.ExpandableLayout
+          android:id="@+id/exp_no_1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          app:el_duration="200"
+          app:el_expanded="true"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat1"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/tv_title_no_1">
+
+          <include
+            android:id="@+id/inc_no_1"
+            layout="@layout/include_add_customer_name_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+          </include>
+
+
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout1">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+          android:id="@+id/linearLayoutCompat2"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:gravity="center_horizontal"
+          android:orientation="vertical"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+          <RelativeLayout
+            android:id="@+id/step_title_2"
+            android:layout_width="@dimen/spacing_xlarge"
+            android:layout_height="@dimen/spacing_xlarge"
+            android:background="@drawable/shape_round_solid"
+            android:gravity="center">
+
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/cpt_no_2"
+              android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+              android:textColor="@android:color/white"/>
+
+          </RelativeLayout>
+
+          <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_20"
+            android:minHeight="?android:attr/actionBarSize"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/tv_title_no_2"
+          style="@style/UTextAppearance.Headline1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:foreground="?selectableItemBackground"
+          app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat2"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <net.cachapa.expandablelayout.ExpandableLayout
+          android:id="@+id/exp_no_2"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="8dp"
+          android:layout_marginBottom="8dp"
+          app:el_duration="200"
+          app:el_expanded="false"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat2"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/tv_title_no_2">
+
+          <include
+            android:id="@+id/inc_no_2"
+            layout="@layout/include_add_customer_communication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+          </include>
+
+
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+          android:id="@+id/linearLayoutCompat3"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:gravity="center_horizontal"
+          android:orientation="vertical"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+          <RelativeLayout
+            android:id="@+id/step_title_3"
+            android:layout_width="@dimen/spacing_xlarge"
+            android:layout_height="@dimen/spacing_xlarge"
+            android:background="@drawable/shape_round_solid"
+            android:gravity="center">
+
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/cpt_no_3"
+              android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+              android:textColor="@android:color/white"/>
+
+          </RelativeLayout>
+
+          <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_20"
+            android:minHeight="?android:attr/actionBarSize"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/tv_title_no_3"
+          style="@style/UTextAppearance.Headline1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:foreground="?selectableItemBackground"
+          app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat3"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <net.cachapa.expandablelayout.ExpandableLayout
+          android:id="@+id/exp_no_3"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="8dp"
+          android:layout_marginBottom="8dp"
+          app:el_duration="200"
+          app:el_expanded="false"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat3"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/tv_title_no_3">
+
+          <include
+            android:id="@+id/inc_no_3"
+            layout="@layout/include_add_customer_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+          </include>
+
+
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+          android:id="@+id/linearLayoutCompat4"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:gravity="center_horizontal"
+          android:orientation="vertical"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+          <RelativeLayout
+            android:id="@+id/step_title_4"
+            android:layout_width="@dimen/spacing_xlarge"
+            android:layout_height="@dimen/spacing_xlarge"
+            android:background="@drawable/shape_round_solid"
+            android:gravity="center">
+
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/cpt_no_4"
+              android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+              android:textColor="@android:color/white"/>
+
+          </RelativeLayout>
+
+          <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_20"
+            android:minHeight="?android:attr/actionBarSize"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/tv_title_no_4"
+          style="@style/UTextAppearance.Headline1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:foreground="?selectableItemBackground"
+          app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat4"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <net.cachapa.expandablelayout.ExpandableLayout
+          android:id="@+id/exp_no_4"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="8dp"
+          android:layout_marginBottom="8dp"
+          app:el_duration="200"
+          app:el_expanded="false"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat4"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/tv_title_no_4">
+
+          <include
+            android:id="@+id/inc_no_4"
+            layout="@layout/include_add_customer_identify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+          </include>
+
+
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+          android:id="@+id/linearLayoutCompat5"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:gravity="center_horizontal"
+          android:orientation="vertical"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+          <RelativeLayout
+            android:id="@+id/step_title_5"
+            android:layout_width="@dimen/spacing_xlarge"
+            android:layout_height="@dimen/spacing_xlarge"
+            android:background="@drawable/shape_round_solid"
+            android:gravity="center">
+
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/cpt_no_5"
+              android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+              android:textColor="@android:color/white"/>
+
+          </RelativeLayout>
+
+          <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_20"
+            android:minHeight="?android:attr/actionBarSize"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/tv_title_no_5"
+          style="@style/UTextAppearance.Headline1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:foreground="?selectableItemBackground"
+          app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat5"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <net.cachapa.expandablelayout.ExpandableLayout
+          android:id="@+id/exp_no_5"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="8dp"
+          android:layout_marginBottom="8dp"
+          app:el_duration="200"
+          app:el_expanded="false"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toStartOf="@+id/linearLayoutCompat5"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/tv_title_no_5">
+
+          <include
+            android:id="@+id/inc_no_5"
+            layout="@layout/include_add_customer_desc_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+          </include>
+
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+      <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat52"
+        android:layout_width="@dimen/spacing_xlarge"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+
+        <View
+          android:layout_width="2dp"
+          android:layout_height="match_parent"
+          android:background="@color/grey_20"/>
+
+      </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

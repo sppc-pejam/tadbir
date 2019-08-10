@@ -1,0 +1,135 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+
+ext.majorVersion = 3
+ext.minorVersion = 1
+ext.patchVersion = 1
+ext.minSdkVersion = 17
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.0"
+
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 28
+        //versionCode 1
+        //versionName "1.0"
+        versionCode generateVersionCode()
+        versionName generateVersionName()
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildscript {
+        repositories {
+            mavenCentral()
+            google()
+        }
+        dependencies {
+            classpath 'com.jakewharton:butterknife-gradle-plugin:10.1.0'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+
+private Integer generateVersionCode() {
+    return ext.minSdkVersion * 10000000 + ext.majorVersion * 10000 + ext.minorVersion * 100 + ext.patchVersion
+}
+
+private String generateVersionName() {
+    return "${ext.majorVersion}.${ext.minorVersion}.${ext.patchVersion}"
+}
+
+
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation project(path: ':helperlibrary')
+    implementation project(path: ':data_entry_widgets')
+
+
+    //region UI
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    //endregion UI
+
+    // Room
+    implementation 'androidx.room:room-runtime:2.1.0'
+    annotationProcessor 'androidx.room:room-compiler:2.1.0'
+    // Room Paging
+    implementation "androidx.paging:paging-runtime:2.1.0"
+    // RxJava support for Room
+    implementation 'androidx.room:room-rxjava2:2.1.0'
+
+    // Dagger
+    implementation 'com.google.dagger:dagger-android:2.20'
+    implementation 'com.google.dagger:dagger-android-support:2.20'
+    // if you use the support libraries
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.20'
+    implementation 'com.google.dagger:dagger:2.20'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.20'
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:2.5.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.3.0"
+
+    // @NotNull
+    implementation 'org.jetbrains:annotations:15.0'
+
+    // DiffUtil
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:2.5.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.3.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.5.0"
+
+    // ok http
+    implementation "com.squareup.okhttp3:logging-interceptor:3.12.1"
+
+    // reactivex
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+
+    // Calligraphy
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+
+    // navigation fragment
+    implementation 'androidx.navigation:navigation-fragment:2.1.0-beta02'
+    implementation 'androidx.navigation:navigation-ui:2.1.0-beta02'
+
+    // butter knife
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+
+    // SDP - a scalable size unit
+    implementation 'com.intuit.sdp:sdp-android:1.0.5'
+
+    // StateProgressBar
+    implementation 'com.kofigyan.stateprogressbar:stateprogressbar:1.0.0'
+
+
+}

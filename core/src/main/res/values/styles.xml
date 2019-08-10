@@ -1,0 +1,292 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Base.AppTheme"/>
+
+  <style name="AppTheme.OverlapSystemBar" parent="Base.AppTheme"/>
+
+  <!--<style name="Base.AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+  <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimaryDark">@color/primary_dark</item>
+    <item name="colorAccent">@color/accent</item>
+    <item name="android:textColorPrimary">@color/primary_text</item>
+    <item name="android:textColorSecondary">@color/secondary_text</item>
+    <item name="android:windowBackground">@color/backgroundColor</item>
+
+
+    <item name="searchViewStyle">@style/USearchViewStyle</item>
+
+    <!-- Must Add for toolbar  -->
+    <item name="windowNoTitle">true</item>
+
+    <item name="actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+
+    <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1
+    </item>
+    <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2
+    </item>
+    <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3
+    </item>
+    <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4
+    </item>
+    <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5
+    </item>
+    <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6
+    </item>
+    <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1
+    </item>
+    <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2
+    </item>
+  </style>
+
+  <style name="GreenTheme" parent="Base.AppTheme">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/primaryColorGreen</item>
+    <item name="colorPrimaryDark">@color/primaryDarkColorGreen</item>
+  </style>
+
+  <style name="PurpleTheme" parent="Base.AppTheme">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/primaryColorPurple</item>
+    <item name="colorPrimaryDark">@color/primaryDarkColorPurple</item>
+    <item name="colorAccent">@color/secondaryColorPurple</item>
+  </style>
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+  <style name="Toolbar" parent="Base.ThemeOverlay.AppCompat.Light">
+
+  </style>
+
+  <style name="OverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+    <item name="android:tint">#ffffff</item>
+  </style>
+
+  <style name="Button.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">@color/colorPrimary</item>
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+
+  <style name="Button.Accent" parent="@style/Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">@color/colorAccent</item>
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+
+  <style name="Button.Green" parent="@style/Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">@color/light_green_500</item>
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+
+  <style name="Button.White" parent="@style/Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">@android:color/white</item>
+    <item name="android:textColor">@color/grey_60</item>
+  </style>
+
+  <style name="Button.Primary.Borderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+    <item name="android:textColor">@color/colorPrimary</item>
+  </style>
+
+  <style name="Button.Accent.Borderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+    <item name="android:textColor">@color/colorAccent</item>
+  </style>
+
+  <style name="Button.Accent.Borderless.WhiteText" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+
+  <style name="Button.White.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">@android:color/white</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+  </style>
+
+  <style name="Button.White.TextDark" parent="@style/Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">@android:color/white</item>
+    <item name="android:textColor">@android:color/black</item>
+  </style>
+
+  <style name="Button.White.Accent" parent="@style/Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">@android:color/white</item>
+    <item name="android:textColor">@color/colorAccent</item>
+  </style>
+
+
+  <style name="AppThemeDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowCloseOnTouchOutside">true</item>
+  </style>
+
+  <style name="TransparentCompat" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation</item>
+  </style>
+
+  <style name="Theme.Transparent" parent="@style/Theme.AppCompat.Light.Dialog">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+
+  <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+    <item name="android:textSize">@dimen/toolbar_text_size</item>
+  </style>
+
+  <style name="UEditText" parent="Base.Widget.AppCompat.EditText">
+    <item name="android:background">@drawable/edit_text_border</item>
+    <item name="android:textSize">@dimen/text_view_body_1</item>
+    <item name="android:textColor">@color/surfaceDarkTextColor</item>
+    <item name="android:textColorHighlight">@color/backgroundDarkColor</item>
+    <item name="android:textColorHint">@color/surfaceLighterTextColor</item>
+  </style>
+
+  <style name="UCardView" parent="Widget.MaterialComponents.CardView">
+    <item name="cardBackgroundColor">@color/surfaceColor</item>
+    <item name="cardCornerRadius">3dp</item>
+    <item name="cardElevation">3dp</item>
+    <item name="cardUseCompatPadding">false</item>
+  </style>
+
+  <style name="UCardViewArticle" parent="Widget.MaterialComponents.CardView">
+    <item name="cardBackgroundColor">@color/surfaceColor</item>
+    <item name="cardPreventCornerOverlap">false</item>
+    <item name="cardCornerRadius">6dp</item>
+    <item name="cardElevation">6dp</item>
+    <item name="cardUseCompatPadding">true</item>
+  </style>
+
+  <style name="UCardViewCustomer" parent="Widget.MaterialComponents.CardView">
+    <item name="cardBackgroundColor">@color/surfaceColor</item>
+    <item name="cardCornerRadius">3dp</item>
+    <item name="cardElevation">3dp</item>
+    <item name="cardUseCompatPadding">false</item>
+  </style>
+
+  <style name="UCardViewBlue" parent="Widget.MaterialComponents.CardView">
+    <item name="cardBackgroundColor">@color/surfaceBlueColor</item>
+    <item name="cardCornerRadius">2dp</item>
+    <item name="cardElevation">3sp</item>
+    <item name="cardUseCompatPadding">false</item>
+  </style>
+
+  <style name="UCardViewOrange" parent="Widget.MaterialComponents.CardView">
+    <item name="cardBackgroundColor">@color/surfaceOrangeColor</item>
+    <item name="cardCornerRadius">2dp</item>
+    <item name="cardElevation">3sp</item>
+    <item name="cardUseCompatPadding">false</item>
+  </style>
+
+  <style name="UCardViewGreen" parent="Widget.MaterialComponents.CardView">
+    <item name="cardBackgroundColor">@color/surfaceGreenColor</item>
+    <item name="cardCornerRadius">2dp</item>
+    <item name="cardElevation">3sp</item>
+    <item name="cardUseCompatPadding">false</item>
+  </style>
+
+  <style name="TransparentToolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="android:windowActionBarOverlay">true</item>
+    <!-- Support Library compability -->
+    <item name="windowActionBarOverlay">true</item>
+  </style>
+
+
+  <style name="USearchViewStyle" parent="Widget.AppCompat.SearchView">
+    <!-- Background for the search query section (e.g. EditText) -->
+    <!--<item name="queryBackground">@color/white</item>-->
+    <!-- Background for the actions section (e.g. voice, submit) -->
+    <item name="submitBackground">@color/white</item>
+    <!-- Close button icon -->
+    <item name="closeIcon">@color/white</item>
+    <!-- Search button icon -->
+    <item name="searchIcon">@color/white</item>
+    <!-- Go/commit button icon -->
+    <item name="goIcon">@color/white</item>
+    <!-- Voice search button icon -->
+    <item name="voiceIcon">@color/white</item>
+    <!-- Commit icon shown in the query suggestion row -->
+    <item name="commitIcon">@color/white</item>
+    <!-- Layout for query suggestion rows -->
+    <item name="suggestionRowLayout">@color/white</item>
+  </style>
+
+
+  <!-- Base application theme. -->
+  <style name="EditText.Yellow" parent="@style/AppTheme">
+    <item name="colorControlNormal">@color/grey_5</item>
+    <item name="colorControlActivated">@color/amber_500</item>
+    <item name="colorControlHighlight">@color/amber_500</item>
+  </style>
+
+  <style name="EditText.White" parent="@style/AppTheme">
+    <item name="colorControlActivated">@android:color/white</item>
+    <item name="colorControlHighlight">@android:color/white</item>
+    <item name="colorControlNormal">@color/grey_10</item>
+  </style>
+
+  <style name="EditText.White.Hint" parent="@style/EditText.White">
+    <item name="colorAccent">@android:color/white</item>
+    <item name="android:textColorHint">@color/grey_10</item>
+  </style>
+
+  <style name="EditText.Grey" parent="@style/AppTheme">
+    <item name="colorControlActivated">@color/grey_60</item>
+    <item name="colorControlHighlight">@color/grey_60</item>
+    <item name="colorControlNormal">@color/grey_40</item>
+  </style>
+
+  <style name="EditText.GreySoft" parent="@style/AppTheme">
+    <item name="colorControlActivated">@color/grey_40</item>
+    <item name="colorControlHighlight">@color/grey_40</item>
+    <item name="colorControlNormal">@color/grey_20</item>
+  </style>
+
+  <style name="EditText.Grey.Hint" parent="@style/EditText.Grey">
+    <item name="colorAccent">@color/grey_60</item>
+  </style>
+
+  <style name="EditText.Green" parent="@style/AppTheme">
+    <item name="colorControlActivated">@color/green_500</item>
+    <item name="colorControlHighlight">@color/green_500</item>
+    <item name="colorControlNormal">@color/green_400</item>
+  </style>
+
+  <style name="EditText.Blue" parent="@style/AppTheme">
+    <item name="colorControlActivated">@color/blue_500</item>
+    <item name="colorControlHighlight">@color/blue_500</item>
+    <item name="colorControlNormal">@color/blue_400</item>
+  </style>
+
+  <style name="EditText.Flat.Grey" parent="@style/AppTheme">
+    <item name="android:textColorHint">@color/grey_40</item>
+    <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Subhead</item>
+    <item name="android:textColor">@color/grey_90</item>
+  </style>
+
+  <style name="EditText.Flat.Grey.Small" parent="@style/AppTheme">
+    <item name="android:textColorHint">@color/grey_40</item>
+    <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
+    <item name="android:textColor">@color/grey_90</item>
+  </style>
+
+  <style name="AlertDialogCustom" parent="Theme.AppCompat.Dialog.Alert">
+    <item name="android:layoutDirection">rtl</item>
+    <item name="android:colorBackground">@color/backgroundDarkerColor</item>
+    <item name="textColorAlertDialogListItem">@color/surfaceDarkerTextColor</item>
+    <item name="android:textColor">@color/backgroundTextColor</item>
+    <item name="colorAccent">@color/primary</item>
+    <item name="android:textSize">@dimen/text_view_body_1</item>
+  </style>
+
+</resources>

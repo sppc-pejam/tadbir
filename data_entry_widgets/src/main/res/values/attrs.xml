@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DataEntryWidgets">
+        <attr name="show_commas" format="boolean"/>
+        <attr name="integer_length" format="integer"/>
+        <attr name="decimal_length" format="integer"/>
+    </declare-styleable>
+
+</resources>

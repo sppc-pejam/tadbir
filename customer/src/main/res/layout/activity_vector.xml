@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/parent"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layoutDirection="rtl">
+
+
+  <com.kofigyan.stateprogressbar.StateProgressBar
+    android:id="@+id/state_progress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_8sdp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:spb_animateToCurrentProgressState="true"
+    app:spb_checkStateCompleted="true"
+    app:spb_currentStateDescriptionColor="@color/enable_item_dark"
+    app:spb_descriptionTopSpaceIncrementer="3dp"
+    app:spb_maxStateNumber="four"
+    app:spb_stateBackgroundColor="@color/backgroundDarkColor"
+    app:spb_stateDescriptionColor="@color/disable_item_dark"
+    app:spb_stateForegroundColor="@color/enable_item_dark"
+    app:spb_stateNumberBackgroundColor="@color/backgroundDarkColor"
+    app:spb_stateNumberForegroundColor="@color/enable_item_dark"
+    app:spb_stateNumberIsDescending="true"
+    app:spb_stateTextSize="@dimen/_12sdp"/>
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/cl_acc_vector"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layoutDirection="ltr"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/state_progress">
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/tv_first_cell"
+      style="@style/UTextAppearance.Caption"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="8dp"
+      android:layout_marginRight="8dp"
+      android:ems="1"
+      android:gravity="center"
+      android:maxLines="1"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/appCompatTextView5"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/appCompatTextView5"
+      style="@style/UTextAppearance.Body1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="-"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="@+id/tv_second_cell"
+      app:layout_constraintEnd_toStartOf="@+id/tv_first_cell"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/tv_second_cell"
+      app:layout_constraintTop_toTopOf="@+id/tv_second_cell"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/tv_second_cell"
+      style="@style/UTextAppearance.Caption"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:ems="1"
+      android:gravity="center"
+      android:maxLines="1"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/appCompatTextView5"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/appCompatTextView2"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/appCompatTextView2"
+      style="@style/UTextAppearance.Body1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="-"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="@+id/tv_second_cell"
+      app:layout_constraintEnd_toStartOf="@+id/tv_second_cell"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/tv_third_cell"
+      app:layout_constraintTop_toTopOf="@+id/tv_second_cell"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/tv_third_cell"
+      style="@style/UTextAppearance.Caption"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:ems="1"
+      android:gravity="center"
+      android:maxLines="1"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/appCompatTextView2"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/appCompatTextView4"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/appCompatTextView4"
+      style="@style/UTextAppearance.Body1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="-"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="@+id/tv_fourth_cell"
+      app:layout_constraintEnd_toStartOf="@+id/tv_third_cell"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/tv_fourth_cell"
+      app:layout_constraintTop_toTopOf="@+id/tv_fourth_cell"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/tv_fourth_cell"
+      style="@style/UTextAppearance.Caption"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginLeft="8dp"
+      android:ems="1"
+      android:gravity="center"
+      android:maxLines="1"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/appCompatTextView4"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <ImageView
+      android:id="@+id/img_divider"
+      android:layout_width="0dp"
+      android:layout_height="1dp"
+      android:layout_gravity="bottom"
+      android:background="@color/divider_dark"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/cl_acc_vector"
+      tools:ignore="ContentDescription"/>
+
+  <fragment
+      android:id="@+id/nav_host"
+      android:name="androidx.navigation.fragment.NavHostFragment"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      app:defaultNavHost="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/img_divider"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

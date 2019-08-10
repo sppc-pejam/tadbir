@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hnt_username">نام کاربری</string>
+    <string name="hnt_password">کلمه عبور</string>
+    <string name="hnt_company">نام شرکت</string>
+    <string name="hnt_date">تاریخ</string>
+    <string name="hnt_start_date">تاریخ آغاز دوره مالی</string>
+    <string name="hnt_end_ate">تاریخ پایان دوره مالی</string>
+    <string name="hnt_customer_name">نام خریدار</string>
+    <string name="hnt_customer_id">کد خریدار</string>
+    <string name="hnt_search">جست و جو بر اساس …</string>
+    <string name="hnt_req_date">تاریخ نیاز</string>
+    <string name="hnt_acc_name">نام حساب</string>
+    <string name="hnt_facc_name">تفصیلی شناور</string>
+    <string name="hnt_cc_name">مرکز هزینه</string>
+    <string name="hnt_prj_name">پروژه</string>
+    <string name="hnt_exporter">صادر کننده</string>
+    <string name="hnt_desc">توضیحات</string>
+    <string name="hnt_customer_search_by_name">جستجو بر اساس نام</string>
+    <string name="hnt_customer_search_by_id">جستجو بر اساس کد</string>
+    <string name="hnt_customer_search_customer">نمایش لیست خریداران</string>
+    <string name="hnt_customer_code">کد خریدار</string>
+    <string name="hnt_customer_search_merchandise">نمایش لیست کالا</string>
+    <string name="hnt_search_account">جستجو براساس کد، نام حساب</string>
+    <string name="hnt_search_detail_acc">جستجو براساس کد، نام تفصیلی</string>
+    <string name="hnt_search_cost_center">جستجو براساس کد، نام مرکز هزینه</string>
+    <string name="hnt_search_project">جستجو براساس کد، نام پروژه</string>
+
+
+
+</resources>

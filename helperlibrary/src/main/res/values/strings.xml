@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HelperLibrary</string>
+    <string name="agree">موافقت</string>
+    <string name="disagree">مخالفت</string>
+    <string name="approve">تایید</string>
+    <string name="choose">انتخاب</string>
+    <string name="dismiss">انصراف</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="error">خطا</string>
+    <string name="warning">اخطار</string>
+    <string name="today">امروز</string>
+    <string name="save">ذخیره</string>
+    <string name="delete">حذف</string>
+    <string name="edit">اصلاح</string>
+    <string name="exit">خروج</string>
+</resources>

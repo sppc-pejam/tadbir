@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="@dimen/_10sdp"
+  android:layoutDirection="ltr"
+  android:layout_gravity="center">
+
+  <androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/tv_desc"
+    style="@style/UTextAppearance.Subtitle1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    android:text="آیا میخواهید از بردار حساب خارج شوید؟"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+  <androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/tv_exit"
+    style="@style/UTextAppearance.Info"
+    android:layout_width="@dimen/_24sdp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:gravity="center"
+    android:text="@string/cpt_yes"
+    android:background="?android:attr/selectableItemBackground"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tv_desc"/>
+
+  <androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/tv_cancel"
+    style="@style/UTextAppearance.Body1"
+    android:layout_width="@dimen/_24sdp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:gravity="center"
+    android:text="@string/cpt_no"
+    android:background="?android:attr/selectableItemBackground"
+    app:layout_constraintBottom_toBottomOf="@+id/tv_exit"
+    app:layout_constraintStart_toEndOf="@+id/tv_exit"
+    app:layout_constraintTop_toTopOf="@+id/tv_exit"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

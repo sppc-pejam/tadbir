@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Bootstrap colors-->
+    <color name="bts_danger_color">#d9534f</color>
+    <color name="bts_danger_color_dark">#CC0000</color>
+    <color name="bts_warning_color">#f0ad4e</color>
+    <color name="bts_warning_color_dark">#FF8800</color>
+    <color name="bts_success_color">#5cb85c</color>
+    <color name="bts_success_color_dark">#007E33</color>
+    <color name="bts_info_color">#5bc0de</color>
+    <color name="bts_info_color_dark">#0099CC</color>
+
+    <!--MDB  colors-->
+    <color name="bts_mdb_default_color">#2BBBAD</color>
+    <color name="bts_mdb_default_color_dark">#00695c</color>
+    <color name="bts_mdb_primary_color">#4285F4</color>
+    <color name="bts_mdb_primary_color_dark">#0d47a1</color>
+    <color name="bts_mdb_secondary_color">#aa66cc</color>
+    <color name="bts_mdb_secondary_color_dark">#9933CC</color>
+
+</resources>
